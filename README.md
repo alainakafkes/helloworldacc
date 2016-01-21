@@ -21,9 +21,7 @@ HWA additionally allows the user to set the threshold value that distinguishes b
 into a text box on the graphical interface and simply press "set!," thereby altering the threshold. A default threshold value is also
 set.
 
-HWA communicates with [my personal databse on Firebase](https://fiery-inferno-9226.firebaseio.com/#) such that "hello" is displayed
-on Firebase when the maximum X-acceleration is above the threshold, and "world" is displayed when the maximum X-acceleration is below
-the threshold. I found this database easiest to use for the limited data storage needs of HWA.
+Firebase, a real-time JSON cloud database, is used for the database and web interface component of this project. HWA communicates with [my personal database on Firebase](https://fiery-inferno-9226.firebaseio.com/#) such that "hello" is displayed on the Firebase user interface when the maximum X-acceleration is above the threshold, and "world" is displayed when the maximum X-acceleration is below the threshold. I found this database easiest to use for the limited data storage needs of HWA, and because it allows easy and real-time visualization of changes occurring within the database.
 
 Though I have some experience in programming for Apple devices, this project represents my first foray into Swift and my first time
 using the Core Motion framework. I'm excited about the skils I have developed and I hope I get the opportunity to create applications
