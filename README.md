@@ -17,7 +17,7 @@ X-direction acceleration to zero if they so choose. I chose to work with maximum
 X-direction acceleration because it is difficult to read the words "hello" and "world" if the Apple Device is shaken fast enough.
 
 
-HWA additionally allows the user to set the threshold value that distinguishes between "hello" and "world" – a user can type a number
+HWA additionally allows the user to set the threshold value that distinguishes between "hello" and "world" – a user can type an integer
 into a text box on the graphical interface and simply press "set!," thereby altering the threshold. A default threshold value is also
 set.
 
